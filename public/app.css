@@ -1,0 +1,30 @@
+:root {
+  --theme: #fff;
+  --pageTxtColor: #000;
+}
+
+.app-pageTheme-dark {
+  --theme: #000;
+  --pageTxtColor: #fff;
+}
+.app-pageTheme-light {
+  --theme: #fff;
+  --pageTxtColor: #000;
+}
+.app-pageTheme-sysblue {
+  --theme: #0AA;
+  --pageTxtColor: #fff;
+}
+.app-startPage,
+.app-settingsPage,
+.app-usefulPage {
+  background-color: var(--theme);
+  color: var(--pageTxtColor);
+  width: 97.5vw;
+  height: 97.5vh;
+  padding: 5px;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
